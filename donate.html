@@ -24,10 +24,10 @@
       }
 
       .contact{
-        width: 24vw;
+        width: 29vw;
         position: absolute;
         top: 30vh;
-        left: 38vw;
+        left: 35.5vw;
         height: 3.9vw;
         border-radius: 0.8vw;
         background-color: rgba(23, 23, 23, 0.65);
@@ -46,6 +46,51 @@
         font-size: 1.4vw;
         font-weight: normal;
       }
+      .contact h3{
+        text-align: center;
+        color: #ccc;
+        font-size: 1.4vw;
+        font-weight: normal;
+      }
+
+      .contact2{
+        width: 20vw;
+        position: absolute;
+        top: 39vh;
+        left: 40vw;
+        height: 3.4vw;
+        border-radius: 0.8vw;
+        background-color: rgba(23, 23, 23, 0.65);
+        transition: background .4s;
+        cursor: default;
+      }
+
+      .contact2:hover {
+        background-color: rgba(23, 23, 23, 0.85);
+        transition: background .4s;
+      }
+
+      .contact2 h2{
+        text-align: center;
+        color: #fff;
+        font-size: 1.4vw;
+        font-weight: normal;
+      }
+      .contact2 h3{
+        text-align: center;
+        color: #ccc;
+        font-size: 1.4vw;
+        font-weight: normal;
+      }
+
+      button {
+        color: #ccc;
+        background-color:rgba(100, 100, 100, 0.65);
+        border-style: solid;
+        border-color:rgba(126, 126, 126, 0.65);
+        width: 43%;
+        font-size: 0.8vw;
+      }
     </style>
 
   </head>
@@ -54,8 +99,8 @@
       <nav>
         <ul class="navbar">
           <li class="navbar2"><a href="index.html">Home</a></li>
-          <li class="active"><a href="contact.html">Contact</a></li>
-          <li class="navbar2"><a href="donate.html">Donate</a></li>
+          <li class="navbar2"><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="donate.html">Donate</a></li>
         </ul>
       </nav>
     </div>
@@ -86,8 +131,20 @@
     </div>
 
     <div class="contact">
-      <h2>Discord: WolfPup#3515</h2>
-      <h2>Email: jackcapel2004@gmail.com</h2>
+      <h2>Donate with Bitcoin</h2>
+      <h3>1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</h3>
+    </div>
+
+    <div class="contact2">
+      <h2>Donate with Paypal</h2>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="NWGU7YEUX28UL" />
+        <input type="hidden" src="https://www.paypalobjects.com/en_GB/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <center>
+          <button>Donate</button>
+        </center>
+      </form>        
     </div>
 
     <div>
